@@ -7,6 +7,9 @@ public class JwtUser {
     private String userName;
     private Set<String> roles;
 
+    public JwtUser() {
+    }
+
     public JwtUser(String userName, Set<String> roles) {
         this.userName = userName;
         this.roles = roles;
